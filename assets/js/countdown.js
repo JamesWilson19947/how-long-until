@@ -56,7 +56,7 @@ function initializeClock(id, endtime) {
       minutesSpan.innerHTML = "00";
       secondsSpan.innerHTML = "00";
       
-      message.innerHTML = 'The timer is up!';
+      message.innerHTML = 'Update is live!';
       confettiTime();
     }
     

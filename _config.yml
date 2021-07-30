@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: howlonguntil.io
+title: nextsimupdate.io
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Want to know how long before a game is released? howlonguntil is not affilated with anyone.
+  Want to know when the next sim update is?.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
