@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div class="wrapper">
+  <div class="modal">
+	<div class="container" id="clockdiv">
+	  <h1> {{ page.title }} </h1>
+	  <h2 class="done"></h2>
+	  <center><div>{{ content }}</div></center>
+	  <div>{% include clock.html %}</div>
+	  <center><h3><script>var date = new Date('{{ page.to_date }}'); document.write(date.toString());</script></h3></center>
+	  <div id="confetti-wrapper">
+	  </div>
+	</div>
+  </div>
+  <div id="confetti-wrapper">
+  </div>
+</div>
+<style>
+	body {
+		background: url("{{ page.background_image }}") no-repeat center center fixed;
+		background-color: #{{ page.background_color }};
+	}
+</style>
+
+<script> var deadline = new Date(Date.parse('{{ page.to_date }}')); </script>
+<script src="../assets/js/countdown.js" charset="utf-8"></script>
+<link rel="stylesheet" href="../assets/css/clock.css">
