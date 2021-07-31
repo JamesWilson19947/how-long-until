@@ -140,3 +140,11 @@ li span {
 #confetti-wrapper {
    overflow: hidden !important;
 }
+
+p.disclaimer {
+  font-size: 0.5rem;
+}
+
+#disclaimer {
+  width: 300px;
+}

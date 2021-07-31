@@ -21,16 +21,28 @@
 title: nextsimupdate.io
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Want to know when the next sim update is?.
+  Want to know when the next sim update is? 
+  All product and company names are trademarks™ or registered® trademarks of their respective holders. 
+  Use of them does not imply any affiliation with or endorsement by them. Microsoft Flight Simulator registered trademarks of Microsoft Corporation 
+  in the United States and/or other countries. The site complies with Microsofts Game Content Usage Rules
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   release_dates:
-      sort_by: to_date
+      sort_by: to_date asc
       output: true
       permalink: :name
-      
+      order:
+        - WorldUpdateVI.md
+        - SimUpdateVI.md
+        - Patch 1.18.14.0.md
+        - SimUpdateV.md
+        - WorldUpdateV.md
+        - Patch 1.15.8.0.md
+        - WorldUpdateIV.md
+        - Patch 1.14.6.0.md
 
 # Build settings
 theme: minima
